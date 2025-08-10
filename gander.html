@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>gander</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<p><head>
+<meta charset="utf-8">
+<link rel="icon" href="./favicon.ico"></p>
+<script>
+AppState = {};
+</script>
+<style>  
+[href], [onclick] {
+    cursor : pointer;
+}
+[contenteditable] {
+    display : inline-block;
+    border-radius : 3ch;
+    padding : 0.42ch;
+    padding-left  : 1.42ch;
+    padding-right : 1.42ch;
+    margin-top    : 0.5ch;
+    margin-bottom : 0.5ch;
+}
+img#logoIcon {
+    border-radius : 42px;
+}
+img#logoIcon:hover ,
+[contenteditable]:hover {
+    box-shadow : 0px 0px 5ch midnightblue;
+}
+[contenteditable]:focus {
+    outline : none;
+    color : midnightblue;
+    background : mintcream;
+}
+</style>
+<p></head></p>
+<!--
+<h1>
+    <span style="white-space : nowrap">
+        <blip>🎲</blip>
+        <edit contenteditable>Gander<edit>
+    </span>
+</h1>
+
+<h2>
+    <span style="white-space : nowrap">
+        <edit contenteditable>Guess a Number<edit>
+    </span>
+</h2>
+-->
+
+<figure>
+    <img onclick="beginGame()" id="logoIcon" alt="🎲 Gander Icon" title="🎲 Gander" src="./favicon.ico">
+</figure>
+
+<script details="Begin Game" group="🎲 ">
+function beginGame() {
+    try {
+        teleport( "./www/" );
+    } catch ( e ) { 
+        alert( e ); throw e; 
+    }
+}
+</script>
+
+<script details="Emulate Anchor Click" group="🎲 ">
+function teleport( url ) {
+    const ae = document.createElement( 'a' );
+    ae.href = url;
+    ae.click();
+}
+</script>
+
+<script details="Chippy Auto Document Title (Standard Practice)"  
+ group="🦜🔲">
+AppState.icon  = document.getElementById( 'logoIcon' );
+AppState.title = document.title = AppState.icon.getAttribute( 'title' );
+</script>
+
+<style details="Chippy Whiteboard Style (Standard Practice)"  
+ group="🦜🔲">
+@import url("http://dave-omega/std/style/wbrd/chippy.css");
+</style>
+
+<script details="Chippy Core API (Standard Practice)"   
+ group="🦜🔲"
+ src="http://dave-omega/vortex/Chippy/api/chippy.js"></script>
+
+<script details="Chippy Whiteboard API (Standard Practice)"   
+ group="🦜🔲"
+ src="http://dave-omega/std/api/wbrd/chippy.js">
+</script>
+
+<script details="Chippy Editables API (Standard Practice)"   
+ group="🦜42"
+ src="http://dave-omega/42/api/editables.js"></script>
+
+<script details="Chippy Energize API (Standard Practice)"   
+ group="🦜42"
+ src="http://dave-omega/42/api/core/energize.js"></script>
+
+<h2>
+    <blip>📜</blip>
+    <edit contenteditable>Main Menu<edit>
+</h2>
+
+<p><a href="./">Menu</a>
+<blip>~</blip>
+<a href="./pms/Concept/Gander-Concept.pdf" title="Concept Notes">Concept</a>
+<blip>~</blip>
+<a href="https://whiteboard.cloud.microsoft/me/whiteboards/86e33603-7092-4c31-b252-8d0a7bbfa26d" title="Gander Whiteboard">Whiteboard</a>
+<blip>~</blip>
+<a href="https://whiteboard.cloud.microsoft/me/whiteboards" title="Whiteboards">Whiteboards</a></p>
+<details>
+<summary>Keys</summary>
+<ul>
+<li> Whiteboard : 86e33603-7092-4c31-b252-8d0a7bbfa26d</li>
+</ul>
+</details>
+
+<details>
+<summary>Providers</summary>
+<ul>
+<li> Whiteboard : https://whiteboard.cloud.microsoft</li>
+</ul>
+</details>
+
+<details>
+<summary>Splitters</summary>
+<ul>
+<li> Whiteboard : me/whiteboards</li>
+</ul>
+</details>
+
+<style>
+fieldset, fieldset > * {
+    border : none;
+}
+fieldset {
+    border-radius : 22px;
+    margin-top : 7ch;
+    margin-bottom : 7ch;
+    background : fuschia;
+}
+fieldset legend {
+    border-radius : 22px;
+    font-size : 32pt;
+}
+fieldset input {
+    border-radius : 15px;
+    width : 80%;
+    padding : 0.42ch;
+    padding-left  : 1.42ch;
+    padding-right : 1.42ch;
+
+}
+</style>
+
+<fieldset>
+<legend>Cloning</legend>
+<div>
+<input value="gh repo clone NyteOwlDave/Gander">
+<div>
+</fieldset>
+
+<blockquote>
+<p>Last Updated ~ 2025-AUG-08 ~ Omega</p>
+</blockquote>
+
+</body>
+</html>
